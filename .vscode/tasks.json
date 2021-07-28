@@ -1,0 +1,29 @@
+{
+  "sourceDir": "D:\\Projects\\StorageEmulator",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: g++.exe 建置使用中檔案",
+      "command": "C:\\cygwin64\\bin\\g++.exe",
+      "args": [
+        "-g",      
+        "${workspaceFolder}\\store_emulator.cpp", 
+        "${workspaceFolder}\\tester.cpp",
+        "-o",
+        "${workspaceFolder}\\test.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "偵錯工具產生的工作。"
+    }
+  ],
+  "version": "2.0.0"
+}
