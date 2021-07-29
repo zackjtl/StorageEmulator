@@ -1,6 +1,8 @@
 {
   "files.associations": {
     "map": "cpp",
-    "utility": "cpp"
+    "utility": "cpp",
+    "xstring": "cpp",
+    "cstddef": "cpp"
   }
 }
